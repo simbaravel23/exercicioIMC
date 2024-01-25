@@ -1,10 +1,11 @@
-function calcular(){
-    const peso = document.getElementById('txtp').value
-    const altura = document.getElementById('txta').value
-    const res = document.getElementById('txtres').value
+function calcular() {
 
-    if ( altura !== '' &&  peso !== '') {
-
-    const valorIMC = (peso/(altura**2)).toFixed(2);
-    }
+  var tn1 = window.document.getElementById('txtn1')
+  var tn2 = window.document.querySelector('input#txtn2')
+  var res = window.document.getElementById('res')
+  var n1 = Number(tn1.value)
+  var n2 = Number(tn2.value)
+  var s = n1 / (n2**2)
+  res.innerHTML = s
+  
 }
