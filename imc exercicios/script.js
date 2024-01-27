@@ -1,6 +1,6 @@
 function calcular() {
 
-  /*var tn1 = window.document.getElementById('txtn1')
+ /* var tn1 = window.document.getElementById('txtn1')
   var tn2 = window.document.querySelector('input#txtn2')
   var res = window.document.getElementById('res')
   var n1 = Number(tn1.value)
@@ -24,12 +24,11 @@ if (res < 18.5){
    } else  {
         classificacao.innerText = 'Está classificado com obesidade grau III.'
    } 
-}  */   
-    
+}     
+   */ 
 let peso = document.getElementById("txtn1").value;
 let altura = document.getElementById("txtn2").value;
 let imc = peso / (altura * altura);
-
     if (imc <= 18.5) {
   resultado.innerHTML = `Seu resultado é ${(imc.toFixed(2))}. Seu grau é: Abaixo do Peso.`;
 }else if (imc > 18.5 && imc <= 24.9) {
