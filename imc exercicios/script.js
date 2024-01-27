@@ -16,7 +16,7 @@ function calcular() {
 
    
 
-   if (res <= 18.5){
+   if (res < 18.5){
         classificacao.innerText = 'Está classificado como abaixo do peso.';
     }else if (res < 25) {
         classificacao.innerText = 'Está classificadocom o peso ideal. Parabéns!';
